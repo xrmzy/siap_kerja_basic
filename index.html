@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="SiapKerja - edukasi interaktif untuk memahami hal penting sebelum pertama kali bekerja."
+    />
+    <title>
+      SiapKerja — Hal yang Tidak Diajarkan Sebelum Pertama Kali Kerja
+    </title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark glass-nav">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#home">Siap<span>Kerja</span>.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+          aria-label="Buka navigasi"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contract">Kontrak</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#salary">Gaji</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#quiz">Quiz</a></li>
+            <li class="nav-item">
+              <a class="btn btn-accent ms-lg-2" href="#start">Mulai</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section
+        id="home"
+        class="hero min-vh-100 d-flex align-items-center position-relative overflow-hidden"
+      >
+        <div class="orb orb-a"></div>
+        <div class="orb orb-b"></div>
+        <div class="container position-relative z-2">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-7 reveal">
+              <p class="eyebrow">FIRST JOB, LESS CONFUSION.</p>
+              <h1 class="display-2 fw-bold">
+                Diterima kerja itu menyenangkan.<br /><span
+                  class="gradient-text"
+                  >Tapi kamu siap?</span
+                >
+              </h1>
+              <p class="lead text-soft mt-4">
+                SiapKerja adalah website edukasi interaktif untuk membantu
+                mahasiswa dan fresh graduate memahami hal-hal dasar sebelum hari
+                pertama bekerja: kontrak, gaji, BPJS Ketenagakerjaan, etika, dan
+                keamanan data.
+              </p>
+              <div class="d-flex flex-wrap gap-3 mt-4">
+                <a class="btn btn-accent btn-lg" href="#start"
+                  >Mulai perjalanan</a
+                >
+                <a class="btn btn-outline-light btn-lg" href="#learn-more"
+                  >Lihat sumber resmi</a
+                >
+              </div>
+              <p class="micro mt-4">
+                <mark>Catatan:</mark> Materi ini bersifat pengenalan, bukan
+                nasihat hukum. Untuk aturan terbaru, cek sumber resmi.
+              </p>
+            </div>
+            <div class="col-lg-5 reveal">
+              <div class="offer-card floaty">
+                <div
+                  class="d-flex justify-content-between align-items-start mb-4"
+                >
+                  <span class="badge-soft">OFFER LETTER</span>
+                  <span class="status-dot" aria-hidden="true"></span>
+                </div>
+                <h2 class="h3">Congratulations! 🎉</h2>
+                <p class="text-soft">Kamu diterima sebagai</p>
+                <h3 class="h4">Junior Product Designer</h3>
+                <div class="offer-grid mt-4">
+                  <div><small>Mulai</small><strong>1 Sept 2026</strong></div>
+                  <div><small>Status</small><strong>PKWT</strong></div>
+                  <div><small>Lokasi</small><strong>Jakarta</strong></div>
+                  <div><small>Gaji</small><strong>Rp6.500.000</strong></div>
+                </div>
+                <a href="#start" class="btn btn-light w-100 mt-4"
+                  >Sebelum klik “Accept” →</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="start" class="section-pad">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">START HERE</p>
+            <h2>Ada 5 hal yang sebaiknya kamu pahami sebelum mulai kerja.</h2>
+          </div>
+          <ol id="journey" class="journey-grid list-unstyled mt-5">
+            <li class="journey-card reveal">
+              <span>01</span>
+              <h3>Kontrak</h3>
+              <p>Baca isi, jangan hanya lihat nominal gaji.</p>
+            </li>
+            <li class="journey-card reveal">
+              <span>02</span>
+              <h3>Gaji</h3>
+              <p>Pahami gross, nett, tunjangan, dan potongan.</p>
+            </li>
+            <li class="journey-card reveal">
+              <span>03</span>
+              <h3>Jaminan Sosial</h3>
+              <p>Kenali program BPJS Ketenagakerjaan secara dasar.</p>
+            </li>
+            <li class="journey-card reveal">
+              <span>04</span>
+              <h3>Etika Kerja</h3>
+              <p>Komunikasi, tanggung jawab, dan cara meminta bantuan.</p>
+            </li>
+            <li class="journey-card reveal">
+              <span>05</span>
+              <h3>Keamanan Data</h3>
+              <p>Jaga password, dokumen, dan informasi perusahaan.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="contract" class="section-pad section-dark">
+        <div class="container">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-5 reveal">
+              <p class="eyebrow">MODULE 01 — KONTRAK</p>
+              <h2>Jangan tanda tangan sebelum tahu apa yang kamu setujui.</h2>
+              <p class="text-soft">
+                Klik bagian kontrak di samping. Tujuannya bukan menghafal hukum,
+                tetapi membiasakan diri membaca informasi penting sebelum
+                menyetujui pekerjaan.
+              </p>
+              <ul class="check-list">
+                <li>Identitas para pihak</li>
+                <li>Posisi dan ruang lingkup pekerjaan</li>
+                <li>Upah dan komponen pembayaran</li>
+                <li>Durasi/status hubungan kerja</li>
+                <li>
+                  Jam kerja, istirahat, dan ketentuan berakhirnya hubungan kerja
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-7 reveal">
+              <div class="contract-paper">
+                <div class="contract-top">
+                  <strong>PERJANJIAN KERJA</strong><span>SIMULASI</span>
+                </div>
+                <p>
+                  Perjanjian ini dibuat antara <b>PT Contoh Nusantara</b> dan
+                  <b>Karyawan Contoh</b>.
+                </p>
+                <button
+                  class="hotspot"
+                  data-title="Posisi & Pekerjaan"
+                  data-copy="Pastikan nama posisi, tugas utama, dan tanggung jawabmu tertulis jelas. Cocokkan isinya dengan pekerjaan yang dijelaskan saat proses rekrutmen agar tidak ada perbedaan ekspektasi."
+                >
+                  01. Posisi — Junior Product Designer
+                </button>
+                <button
+                  class="hotspot"
+                  data-title="Status & Durasi"
+                  data-copy="Periksa apakah statusmu PKWT atau PKWTT, termasuk durasi kontrak dan kemungkinan perpanjangannya. Simpan salinan kontrak dan cek ketentuan terbaru dari sumber resmi."
+                >
+                  02. Status — PKWT 12 bulan
+                </button>
+                <button
+                  class="hotspot"
+                  data-title="Upah"
+                  data-copy="Pastikan nominal upah, tunjangan, bonus, tanggal pembayaran, dan potongan dijelaskan. Bedakan nilai gross dari jumlah bersih yang benar-benar diterima di rekening."
+                >
+                  03. Upah — Rp6.500.000 / bulan
+                </button>
+                <button
+                  class="hotspot"
+                  data-title="Waktu Kerja"
+                  data-copy="Periksa hari dan jam kerja, waktu istirahat, sistem shift, serta aturan lembur. Pastikan jadwal kerja sesuai dengan kesepakatan dan ketentuan yang berlaku."
+                >
+                  04. Waktu kerja — Senin–Jumat
+                </button>
+                <button
+                  class="hotspot"
+                  data-title="Berakhirnya Hubungan Kerja"
+                  data-copy="Baca aturan pengunduran diri, pemutusan hubungan kerja, masa pemberitahuan, dan hak yang diterima saat kontrak berakhir. Jangan melewatkan denda atau kewajiban khusus."
+                >
+                  05. Pengakhiran hubungan kerja
+                </button>
+                <div class="signature-row">
+                  <span>Perusahaan<br />___________</span
+                  ><span>Pekerja<br />___________</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="salary" class="section-pad">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">MODULE 02 — GAJI</p>
+            <h2>
+              Nominal di offer letter belum tentu sama dengan uang yang masuk
+              rekening.
+            </h2>
+          </div>
+          <div class="row g-4 mt-3">
+            <div class="col-lg-6 reveal">
+              <div class="tool-card h-100">
+                <h3 class="h4">Simulasi slip gaji</h3>
+                <p class="text-soft">
+                  Masukkan contoh angka untuk memahami struktur dasar. Ini hanya
+                  simulasi edukasi, bukan kalkulator payroll resmi.
+                </p>
+                <form id="salaryForm" class="row g-3">
+                  <div class="col-12">
+                    <label class="form-label" for="gross"
+                      >Gaji kotor / gross (Rp)</label
+                    ><input
+                      class="form-control"
+                      id="gross"
+                      type="number"
+                      value="6500000"
+                      min="0"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label" for="allowance"
+                      >Tunjangan (Rp)</label
+                    ><input
+                      class="form-control"
+                      id="allowance"
+                      type="number"
+                      value="500000"
+                      min="0"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label" for="deduction"
+                      >Potongan contoh (Rp)</label
+                    ><input
+                      class="form-control"
+                      id="deduction"
+                      type="number"
+                      value="250000"
+                      min="0"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-accent" type="submit">
+                      Hitung simulasi
+                    </button>
+                  </div>
+                </form>
+                <div
+                  id="salaryResult"
+                  class="salary-result mt-4"
+                  aria-live="polite"
+                ></div>
+              </div>
+            </div>
+            <div class="col-lg-6 reveal">
+              <div class="table-card h-100">
+                <h3 class="h4">Istilah dasar yang perlu dibedakan</h3>
+                <div class="table-responsive">
+                  <table class="table table-dark table-hover align-middle mt-3">
+                    <thead>
+                      <tr>
+                        <th>Istilah</th>
+                        <th>Artinya secara sederhana</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><strong>Gross</strong></td>
+                        <td>Nilai sebelum potongan tertentu.</td>
+                      </tr>
+                      <tr>
+                        <td><strong>Nett</strong></td>
+                        <td>
+                          Nilai yang diterima setelah perhitungan/potongan
+                          terkait.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><strong>Tunjangan</strong></td>
+                        <td>
+                          Komponen tambahan di luar gaji pokok, tergantung
+                          kebijakan perusahaan.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><strong>Potongan</strong></td>
+                        <td>
+                          Pengurangan dari penghasilan sesuai komponen yang
+                          berlaku.
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad section-blue">
+        <div class="container">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-6 reveal">
+              <img
+                class="img-fluid rounded-4 shadow-lg"
+                src="assets/worker-benefits.svg"
+                alt="Ilustrasi pekerja dan perlindungan sosial"
+              />
+            </div>
+            <div class="col-lg-6 reveal">
+              <p class="eyebrow">MODULE 03 — JAMINAN SOSIAL</p>
+              <h2>BPJS Ketenagakerjaan bukan sekadar potongan di slip gaji.</h2>
+              <p>
+                BPJS Ketenagakerjaan menyelenggarakan lima program:
+                <strong>JKK, JHT, JP, JKM, dan JKP</strong>. Program yang
+                berlaku bagi seseorang bergantung pada status dan ketentuan
+                kepesertaan.
+              </p>
+              <ul class="benefit-list">
+                <li><b>JKK</b> — Jaminan Kecelakaan Kerja</li>
+                <li><b>JHT</b> — Jaminan Hari Tua</li>
+                <li><b>JP</b> — Jaminan Pensiun</li>
+                <li><b>JKM</b> — Jaminan Kematian</li>
+                <li><b>JKP</b> — Jaminan Kehilangan Pekerjaan</li>
+              </ul>
+              <a
+                class="btn btn-light"
+                target="_blank"
+                rel="noopener"
+                href="https://www.bpjsketenagakerjaan.go.id/"
+                >Belajar di BPJS Ketenagakerjaan ↗</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">MODULE 04 — WORKPLACE BASICS</p>
+            <h2>
+              Skill teknis membuatmu diterima. Kebiasaan kerja membuatmu
+              dipercaya.
+            </h2>
+          </div>
+          <div class="row g-4 mt-2">
+            <div class="col-md-4 reveal">
+              <article class="lesson-card">
+                <span>💬</span>
+                <h3>Komunikasi</h3>
+                <p>
+                  Jika belum paham, bertanya lebih baik daripada diam dan
+                  membuat asumsi.
+                </p>
+              </article>
+            </div>
+            <div class="col-md-4 reveal">
+              <article class="lesson-card">
+                <span>⏱️</span>
+                <h3>Reliability</h3>
+                <p>
+                  Berikan update sebelum deadline jika ada hambatan. Jangan
+                  menunggu masalah membesar.
+                </p>
+              </article>
+            </div>
+            <div class="col-md-4 reveal">
+              <article class="lesson-card">
+                <span>🔐</span>
+                <h3>Data Safety</h3>
+                <p>
+                  Jangan membagikan password, dokumen internal, atau data
+                  pelanggan sembarangan.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad section-dark">
+        <div class="container">
+          <div class="row g-4 justify-content-center align-items-stretch">
+            <div class="col-lg-8 reveal">
+              <div class="media-card h-100">
+                <p class="eyebrow">TIPS</p>
+                <h2 class="h3">Tonton tips ini sebelum anda bekerja</h2>
+                <div class="ratio ratio-16x9 mt-3">
+                  <iframe
+                    src="https://www.youtube.com/embed/Qa5KTuY7ABs?si=ecmjQRMiajwNDxEL"
+                    title="Video sebelum hari pertama kerja"
+                    allow="
+                      accelerometer;
+                      autoplay;
+                      clipboard-write;
+                      encrypted-media;
+                      gyroscope;
+                      picture-in-picture;
+                      web-share;
+                    "
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="quiz" class="section-pad">
+        <div class="container quiz-shell reveal">
+          <div class="section-head text-center">
+            <p class="eyebrow">FINAL CHECK</p>
+            <h2>Seberapa siap kamu untuk hari pertama?</h2>
+          </div>
+          <form id="quizForm" class="quiz-form mt-5">
+            <fieldset class="quiz-q">
+              <legend>
+                1. Kamu menerima kontrak kerja. Apa yang paling baik dilakukan?
+              </legend>
+              <label
+                ><input type="radio" name="q1" value="0" /> Langsung tanda
+                tangan karena nominal gajinya cocok</label
+              ><label
+                ><input type="radio" name="q1" value="1" /> Baca posisi, upah,
+                durasi, waktu kerja, dan klausul penting lebih dulu</label
+              >
+            </fieldset>
+            <fieldset class="quiz-q">
+              <legend>2. Kamu tidak memahami tugas dari atasan.</legend>
+              <label
+                ><input type="radio" name="q2" value="1" /> Klarifikasi tujuan
+                dan ekspektasi dengan sopan</label
+              ><label
+                ><input type="radio" name="q2" value="0" /> Tebak saja supaya
+                terlihat mandiri</label
+              >
+            </fieldset>
+            <fieldset class="quiz-q">
+              <legend>
+                3. Teman meminta password akun kerja untuk membantu
+                menyelesaikan tugas.
+              </legend>
+              <label
+                ><input type="radio" name="q3" value="0" /> Berikan karena dia
+                teman satu tim</label
+              ><label
+                ><input type="radio" name="q3" value="1" /> Jangan berbagi
+                password; gunakan cara kolaborasi yang disediakan
+                perusahaan</label
+              >
+            </fieldset>
+            <button type="submit" class="btn btn-accent btn-lg">
+              Lihat hasil
+            </button>
+          </form>
+          <div
+            id="quizResult"
+            class="quiz-result mt-4"
+            aria-live="polite"
+          ></div>
+        </div>
+      </section>
+
+      <section id="learn-more" class="section-pad section-blue">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">LEARN MORE</p>
+            <h2>Kalau ragu, lanjutkan belajar dari sumber resmi.</h2>
+          </div>
+          <div class="row g-4 mt-2">
+            <div class="col-md-4 reveal">
+              <a
+                class="source-card"
+                target="_blank"
+                rel="noopener"
+                href="https://kemnaker.go.id/"
+                ><span>Kemnaker</span>
+                <h3>Ketenagakerjaan Indonesia</h3>
+                <p>Berita, layanan, dan informasi resmi ketenagakerjaan.</p>
+                <b>Buka ↗</b></a
+              >
+            </div>
+            <div class="col-md-4 reveal">
+              <a
+                class="source-card"
+                target="_blank"
+                rel="noopener"
+                href="https://jdih.kemnaker.go.id/"
+                ><span>JDIH Kemnaker</span>
+                <h3>Regulasi resmi</h3>
+                <p>
+                  Cek peraturan dan status regulasi terbaru sebelum mengambil
+                  keputusan.
+                </p>
+                <b>Buka ↗</b></a
+              >
+            </div>
+            <div class="col-md-4 reveal">
+              <a
+                class="source-card"
+                target="_blank"
+                rel="noopener"
+                href="https://www.bpjsketenagakerjaan.go.id/"
+                ><span>BPJS TK</span>
+                <h3>Jaminan sosial pekerja</h3>
+                <p>
+                  Pelajari program, kepesertaan, dan manfaat dari situs
+                  resminya.
+                </p>
+                <b>Buka ↗</b></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-5 reveal">
+              <p class="eyebrow">FEEDBACK</p>
+              <h2>Bantu SiapKerja menjadi lebih mudah dipahami.</h2>
+              <p class="text-soft">
+                Form ini hanya demonstrasi front-end dan tidak mengirim data ke
+                server.
+              </p>
+            </div>
+            <div class="col-lg-7 reveal">
+              <form id="feedbackForm" class="feedback-card">
+                <div class="mb-3">
+                  <label class="form-label" for="name">Nama</label
+                  ><input id="name" class="form-control" required />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="email">Email</label
+                  ><input
+                    id="email"
+                    type="email"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="topic"
+                    >Topik paling membantu</label
+                  ><select id="topic" class="form-select">
+                    <option>Kontrak kerja</option>
+                    <option>Gaji</option>
+                    <option>BPJS Ketenagakerjaan</option>
+                    <option>Etika kerja</option>
+                    <option>Keamanan data</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="message">Saran</label
+                  ><textarea
+                    id="message"
+                    class="form-control"
+                    rows="4"
+                    placeholder="Tulis saranmu..."
+                  ></textarea>
+                </div>
+                <div class="form-check mb-3">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="agree"
+                    required
+                  /><label class="form-check-label" for="agree"
+                    >Saya memahami ini hanya demo front-end.</label
+                  >
+                </div>
+                <button class="btn btn-accent" type="submit">
+                  Kirim feedback</button
+                ><span id="feedbackMsg" class="ms-3"></span>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="back-top-wrap">
+          <a class="back-top" href="#home" aria-label="Kembali ke halaman utama">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M12 19V5m-6 6 6-6 6 6" />
+            </svg>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer py-5">
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between gap-3"
+      >
+        <div>
+          <strong>SiapKerja.</strong>
+          <p class="mb-0 text-soft">Belajar dulu. Tanda tangan kemudian.</p>
+        </div>
+        <div class="text-md-end"></div>
+      </div>
+    </footer>
+
+    <div class="modal fade" id="infoModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content modal-dark">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5" id="infoTitle"></h2>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body" id="infoCopy"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
